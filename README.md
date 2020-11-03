@@ -109,7 +109,7 @@ A simple sudoku game made with ReactJS. [[demo video]](https://youtu.be/Y-CJbfve
     * Firstly, **complete the key board inupt function (20%)**
         * When user press the key (0~9), the currently selected grid should be update.
         * **Hint.** You should complete **hadleKeyDownEvent** function in Sudoku.js. (Given keyboard event, update **gridValues** in state correspondingly)
-        * **Notice.** There are different keyCodes for number 0~9 (48~57 and 96~105). Make sure you handle them all.
+        * **Notice.** There are different keyCodes for number 0-9 (48-57 and 96-105). Make sure you handle them all.
     * Secondarily, **complete the screen keyboard input function (10%)**
         ![](https://i.imgur.com/J99Qqdp.png)
         * **Hint.** You should complete **hadleScreenKeyboardInput** function in Sudoku.js. (Given input number (0~9, Integer), update **gridValues** in state correspondingly)
