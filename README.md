@@ -119,12 +119,12 @@ A simple sudoku game made with ReactJS. [[demo video]](https://youtu.be/Y-CJbfve
 ## Bonus
 1. **Highlight conflicts grids (5%)**
     ![](https://i.imgur.com/aRXdJt1.png) 
-    * When an invalid input is given, you should highlight the other conflicts grids
-    * **Hint.** You should set the **conflicts in state properly
+    * When an invalid input is given, you should highlight the other conflicts grids for one secend
+    * **Hint.** You should set the **conflicts in state properly**
         
 2. **Add error effect to the game board boarder (3%)**
     ![](https://i.imgur.com/8nvOT1K.png)
-    * When an invalid input is given, you should make the border style of the gameboard (id="game-board") to `"8px solid #E77"` for 1 minute
+    * When an invalid input is given, you should make the border style of the gameboard (id="game-board") to `"8px solid #E77"` for 1 second
     * **Hint.** You may use the following code:
         ```javascript=
         this.setState({ gameBoardBorderStyle: "8px solid #E77" });
